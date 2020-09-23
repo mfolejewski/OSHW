@@ -16,6 +16,8 @@ Only for non-commercial use!
 Download project from my GitHub page:
 https://github.com/mfolejewski/OSHW/tree/master/PROJECT_%2303
 
+Originally designed @ 2009-2010, redesigned for OSHW and published @ 2020-09-23
+
 If you have any questions, don't hesitate, feel free, just ask me.
 
 #LED #PCB #PCBDesign #OSHW #Hardware #PCBA #Altium
