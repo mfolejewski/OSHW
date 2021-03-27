@@ -1,0 +1,527 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=ac_rc_unit.OutJob
+Description=
+TargetOutputMedium=Assembly (Draftsman)
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=SCH
+OutputMedium2_Type=Publish
+OutputMedium3=CAM Files
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=PCB 3D view
+OutputMedium4_Type=Publish
+OutputMedium5=BOM (short)
+OutputMedium5_Type=GeneratedFiles
+OutputMedium6=BOM (full)
+OutputMedium6_Type=GeneratedFiles
+OutputMedium7=Assembly (Draftsman)
+OutputMedium7_Type=Publish
+OutputMedium8=Assembly (Mech layers)
+OutputMedium8_Type=Publish
+OutputMedium9=PCB Drawings
+OutputMedium9_Type=Publish
+OutputMedium10=Pick Place
+OutputMedium10_Type=GeneratedFiles
+OutputType1=Schematic Print
+OutputName1=Schematic
+OutputCategory1=Documentation
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=DSL_NonPoE
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
+OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=0
+OutputEnabled1_OutputMedium10=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=Gerber
+OutputName2=Gerber Files
+OutputCategory2=Fabrication
+OutputDocumentPath2=ac_rc_unit_VER1.PcbDoc
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=1
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
+OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
+OutputEnabled2_OutputMedium10=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=9842520|FilmXSize=196850394|FilmYSize=196850394|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908298~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType3=NC Drill
+OutputName3=NC Drill Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=ac_rc_unit_VER1.PcbDoc
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=2
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
+OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=0
+OutputEnabled3_OutputMedium9=0
+OutputEnabled3_OutputMedium10=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=KeepLeadingAndTrailingZeroes
+OutputType4=PDF3D
+OutputName4=PDF 3D - single
+OutputCategory4=Documentation
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=1
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
+OutputEnabled4_OutputMedium7=0
+OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium9=0
+OutputEnabled4_OutputMedium10=0
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
+OutputType5=BOM_PartType
+OutputName5=BOM (short)
+OutputCategory5=Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=1
+OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium7=0
+OutputEnabled5_OutputMedium8=0
+OutputEnabled5_OutputMedium9=0
+OutputEnabled5_OutputMedium10=0
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=General
+Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\cfg\Altium_BOM_Template_2019_MFO_v1.xlsx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1898|FormHeight=1004|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration5_Name3=GroupOrder
+Configuration5_Item3=MPN=True
+Configuration5_Name4=PCBDocument
+Configuration5_Item4=FileName=10443abb18_EDS500_BASE.PcbDoc
+Configuration5_Name5=PCBDocument2
+Configuration5_Item5=FileName=[PCB Document 1]
+Configuration5_Name6=SortOrder
+Configuration5_Item6=Designator=Up
+Configuration5_Name7=VisibleOrder
+Configuration5_Item7=Designator=202|Component Type=202|Value=137|Package=158|Quantity=73|Specification=320|Manufacturer=202|MPN=202|FT Item=202|Mounting Type=202|Layer=210
+OutputType6=BOM_PartType
+OutputName6=BOM (full)
+OutputCategory6=Report
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=1
+OutputEnabled6_OutputMedium7=0
+OutputEnabled6_OutputMedium8=0
+OutputEnabled6_OutputMedium9=0
+OutputEnabled6_OutputMedium10=0
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration6_Name1=ColumnNameFormat
+Configuration6_Item1=CaptionAsName
+Configuration6_Name2=General
+Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\cfg\Altium_BOM_Template_2019_MFO_v1.xlsx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1898|FormHeight=1042|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration6_Name3=GroupOrder
+Configuration6_Item3=
+Configuration6_Name4=PCBDocument
+Configuration6_Item4=FileName=ac_rc_unit_VER1.PcbDoc
+Configuration6_Name5=PCBDocument2
+Configuration6_Item5=FileName=[PCB Document 1]
+Configuration6_Name6=SortOrder
+Configuration6_Item6=Designator=Up
+Configuration6_Name7=VisibleOrder
+Configuration6_Item7=Designator=194|Component Type=194|Value=131|Package=152|Quantity=70|Specification=307|Manufacturer=194|MPN=191|FT Item=157|Mounting Type=157|Layer=162|Fitted=100
+Configuration6_Name8=VisibleOrder_Flat
+Configuration6_Item8=Designator=194|Component Type=194|Value=131|Package=152|Quantity=70|Specification=307|Manufacturer=194|MPN=191|FT Item=157|Mounting Type=157|Layer=162|Fitted=100
+OutputType7=PCBDrawing
+OutputName7=Assembly (Draftsman)
+OutputCategory7=Documentation
+OutputDocumentPath7=Assembly_MFO_v1.PCBDwf
+OutputVariantName7=
+OutputEnabled7=1
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=0
+OutputEnabled7_OutputMedium7=1
+OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=0
+OutputEnabled7_OutputMedium10=0
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=PCBDrawing
+OutputName8=PCB Drawings
+OutputCategory8=Documentation
+OutputDocumentPath8=PCB_Drawings_v1.PCBDwf
+OutputVariantName8=
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=0
+OutputEnabled8_OutputMedium7=0
+OutputEnabled8_OutputMedium8=0
+OutputEnabled8_OutputMedium9=1
+OutputEnabled8_OutputMedium10=0
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Pick Place
+OutputName9=Pick and place (single)
+OutputCategory9=Assembly
+OutputDocumentPath9=ac_rc_unit_VER1.PcbDoc
+OutputVariantName9=
+OutputEnabled9=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium7=0
+OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
+OutputEnabled9_OutputMedium10=1
+OutputDefault9=0
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter=(Mounting Type = 'SMD')|FilterActive=True|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:Descending,SortIndex:0,Position:24|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:5|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:6|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:10|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:15|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:16|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:17|Column#17=Name:Replacement,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#18=Name:Value,Fixed:False,Metric:False,Visible:True,Sort:None,Position:2|Column#19=Name:Specification,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#20=Name:System,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#21=Name:FT Item,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#22=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#23=Name:Mounting Type,Fixed:False,Metric:False,Visible:True,Sort:None,Position:26|Column#24=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#25=Name:MPN,Fixed:False,Metric:False,Visible:True,Sort:None,Position:3|Column#26=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#27=Name:Package,Fixed:False,Metric:False,Visible:True,Sort:None,Position:4
+OutputType10=Assembly
+OutputName10=Assembly (Mech layers)
+OutputCategory10=Assembly
+OutputDocumentPath10=ac_rc_unit_VER1.PcbDoc
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=0
+OutputEnabled10_OutputMedium6=0
+OutputEnabled10_OutputMedium7=0
+OutputEnabled10_OutputMedium8=1
+OutputEnabled10_OutputMedium9=0
+OutputEnabled10_OutputMedium10=0
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.64|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration10_Name2=OutputConfigurationParameter2
+Configuration10_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Assembly Drawing [TOP]|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration10_Name3=OutputConfigurationParameter3
+Configuration10_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical19|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Name4=OutputConfigurationParameter4
+Configuration10_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical21|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Name5=OutputConfigurationParameter5
+Configuration10_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopPaste|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Name6=OutputConfigurationParameter6
+Configuration10_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration10_Name7=OutputConfigurationParameter7
+Configuration10_Item7=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=True|Name=Assembly Drawing [BOT]|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration10_Name8=OutputConfigurationParameter8
+Configuration10_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Name9=OutputConfigurationParameter9
+Configuration10_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomPaste|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration10_Name10=OutputConfigurationParameter10
+Configuration10_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+PcbPrintPreferences10=SubsititueFont_Default=True|SubsititueFont_Serif=True|SubsititueFont_SansSerif=True|PrintKeepOuts=False|NetColorOverride=True|PrintPositivePlaneLayers=False|V7_M0.Name=Mechanical Layer 1|V7_M0.Value=True|V7_M1.Name=Mechanical Layer 2|V7_M1.Value=True|V7_M2.Name=Mechanical Layer 3|V7_M2.Value=True|V7_M3.Name=Mechanical Layer 4|V7_M3.Value=True|V7_M4.Name=Mechanical Layer 5|V7_M4.Value=True|V7_M5.Name=Mechanical Layer 6|V7_M5.Value=True|V7_M6.Name=Mechanical Layer 7|V7_M6.Value=True|V7_M7.Name=Mechanical Layer 8|V7_M7.Value=True|V7_M8.Name=Mechanical Layer 9|V7_M8.Value=True|V7_M9.Name=Mechanical Layer 10|V7_M9.Value=True|V7_M10.Name=Mechanical Layer 11|V7_M10.Value=True|V7_M11.Name=Mechanical Layer 12|V7_M11.Value=True|V7_M12.Name=Mechanical Layer 13|V7_M12.Value=True|V7_M13.Name=Mechanical Layer 14|V7_M13.Value=True|V7_M14.Name=Mechanical Layer 15|V7_M14.Value=True|V7_M15.Name=Mechanical Layer 16|V7_M15.Value=True|V7_G0.Name=Top Layer|V7_G0.Value=30|V7_G1.Name=Mid Layer 1|V7_G1.Value=60|V7_G2.Name=Mid Layer 2|V7_G2.Value=90|V7_G3.Name=Mid Layer 3|V7_G3.Value=120|V7_G4.Name=Mid Layer 4|V7_G4.Value=150|V7_G5.Name=Mid Layer 5|V7_G5.Value=180|V7_G6.Name=Mid Layer 6|V7_G6.Value=210|V7_G7.Name=Mid Layer 7|V7_G7.Value=60|V7_G8.Name=Mid Layer 8|V7_G8.Value=90|V7_G9.Name=Mid Layer 9|V7_G9.Value=120|V7_G10.Name=Mid Layer 10|V7_G10.Value=150|V7_G11.Name=Mid Layer 11|V7_G11.Value=180|V7_G12.Name=Mid Layer 12|V7_G12.Value=210|V7_G13.Name=Mid Layer 13|V7_G13.Value=60|V7_G14.Name=Mid Layer 14|V7_G14.Value=95|V7_G15.Name=Mid Layer 15|V7_G15.Value=60|V7_G16.Name=Mid Layer 16|V7_G16.Value=90|V7_G17.Name=Mid Layer 17|V7_G17.Value=120|V7_G18.Name=Mid Layer 18|V7_G18.Value=150|V7_G19.Name=Mid Layer 19|V7_G19.Value=180|V7_G20.Name=Mid Layer 20|V7_G20.Value=210|V7_G21.Name=Mid Layer 21|V7_G21.Value=60|V7_G22.Name=Mid Layer 22|V7_G22.Value=90|V7_G23.Name=Mid Layer 23|V7_G23.Value=120|V7_G24.Name=Mid Layer 24|V7_G24.Value=150|V7_G25.Name=Mid Layer 25|V7_G25.Value=180|V7_G26.Name=Mid Layer 26|V7_G26.Value=210|V7_G27.Name=Mid Layer 27|V7_G27.Value=60|V7_G28.Name=Mid Layer 28|V7_G28.Value=95|V7_G29.Name=Mid Layer 29|V7_G29.Value=60|V7_G30.Name=Mid Layer 30|V7_G30.Value=95|V7_G31.Name=Bottom Layer|V7_G31.Value=90|V7_G32.Name=Top Overlay|V7_G32.Value=192|V7_G33.Name=Bottom Overlay|V7_G33.Value=140|V7_G34.Name=Top Paste|V7_G34.Value=160|V7_G35.Name=Bottom Paste|V7_G35.Value=160|V7_G36.Name=Top Solder Mask|V7_G36.Value=0|V7_G37.Name=Bottom Solder Mask|V7_G37.Value=0|V7_G38.Name=Drill Guide|V7_G38.Value=0|V7_G39.Name=Keep Out Layer|V7_G39.Value=120|V7_G40.Name=Drill Drawing|V7_G40.Value=0|V7_G41.Name=Multi Layer|V7_G41.Value=0|V7_G42.Name=Connect Layer|V7_G42.Value=0|V7_G43.Name=BackGround|V7_G43.Value=255|V7_G44.Name=DRC Errors|V7_G44.Value=0|V7_G45.Name=Highlight Layer|V7_G45.Value=0|V7_G46.Name=Grid Color 1|V7_G46.Value=0|V7_G47.Name=Grid Color 10|V7_G47.Value=0|V7_G48.Name=Pad Hole Layer|V7_G48.Value=210|V7_G49.Name=Via Hole Layer|V7_G49.Value=210|V7_G50.Name=Mechanical Layers|V7_G50.Value=90|V7_G51.Name=Internal Plane Layers|V7_G51.Value=0|V7_G52.Name=Internal Plane 1|V7_G52.Value=0|V7_G53.Name=Internal Plane 2|V7_G53.Value=0|V7_G54.Name=Internal Plane 3|V7_G54.Value=0|V7_G55.Name=Internal Plane 4|V7_G55.Value=0|V7_G56.Name=Internal Plane 5|V7_G56.Value=0|V7_G57.Name=Internal Plane 6|V7_G57.Value=0|V7_G58.Name=Internal Plane 7|V7_G58.Value=0|V7_G59.Name=Internal Plane 8|V7_G59.Value=0|V7_G60.Name=Internal Plane 9|V7_G60.Value=0|V7_G61.Name=Internal Plane 10|V7_G61.Value=0|V7_G62.Name=Internal Plane 11|V7_G62.Value=0|V7_G63.Name=Internal Plane 12|V7_G63.Value=0|V7_G64.Name=Internal Plane 13|V7_G64.Value=0|V7_G65.Name=Internal Plane 14|V7_G65.Value=0|V7_G66.Name=Internal Plane 15|V7_G66.Value=0|V7_G67.Name=Internal Plane 16|V7_G67.Value=0|V7_G68.Name=Mechanical Layer 1|V7_G68.Value=0|V7_G69.Name=Mechanical Layer 2|V7_G69.Value=90|V7_G70.Name=Mechanical Layer 3|V7_G70.Value=90|V7_G71.Name=Mechanical Layer 4|V7_G71.Value=90|V7_G72.Name=Mechanical Layer 5|V7_G72.Value=90|V7_G73.Name=Mechanical Layer 6|V7_G73.Value=90|V7_G74.Name=Mechanical Layer 7|V7_G74.Value=90|V7_G75.Name=Mechanical Layer 8|V7_G75.Value=90|V7_G76.Name=Mechanical Layer 9|V7_G76.Value=90|V7_G77.Name=Mechanical Layer 10|V7_G77.Value=90|V7_G78.Name=Mechanical Layer 11|V7_G78.Value=90|V7_G79.Name=Mechanical Layer 12|V7_G79.Value=90|V7_G80.Name=Mechanical Layer 13|V7_G80.Value=90|V7_G81.Name=Mechanical Layer 14|V7_G81.Value=90|V7_G82.Name=Mechanical Layer 15|V7_G82.Value=90|V7_G83.Name=Mechanical Layer 16|V7_G83.Value=90|V7_G84.Name=Mechanical Layer 19|V7_G84.Value=0|V7_G85.Name=Mechanical Layer 20|V7_G85.Value=0|V7_G86.Name=Mechanical Layer 21|V7_G86.Value=0|V7_G87.Name=Mechanical Layer 23|V7_G87.Value=0|V7_G88.Name=Mechanical Layer 22|V7_G88.Value=0|Mechanical1=True|Mechanical2=True|Mechanical3=True|Mechanical4=True|Mechanical5=True|Mechanical6=True|Mechanical7=True|Mechanical8=True|Mechanical9=True|Mechanical10=True|Mechanical11=True|Mechanical12=True|Mechanical13=True|Mechanical14=True|Mechanical15=True|Mechanical16=True|Gray Level For TopLayer=30|Gray Level For MidLayer1=60|Gray Level For MidLayer2=90|Gray Level For MidLayer3=120|Gray Level For MidLayer4=150|Gray Level For MidLayer5=180|Gray Level For MidLayer6=210|Gray Level For MidLayer7=60|Gray Level For MidLayer8=90|Gray Level For MidLayer9=120|Gray Level For MidLayer10=150|Gray Level For MidLayer11=180|Gray Level For MidLayer12=210|Gray Level For MidLayer13=60|Gray Level For MidLayer14=95|Gray Level For MidLayer15=60|Gray Level For MidLayer16=90|Gray Level For MidLayer17=120|Gray Level For MidLayer18=150|Gray Level For MidLayer19=180|Gray Level For MidLayer20=210|Gray Level For MidLayer21=60|Gray Level For MidLayer22=90|Gray Level For MidLayer23=120|Gray Level For MidLayer24=150|Gray Level For MidLayer25=180|Gray Level For MidLayer26=210|Gray Level For MidLayer27=60|Gray Level For MidLayer28=95|Gray Level For MidLayer29=60|Gray Level For MidLayer30=95|Gray Level For BottomLayer=90|Gray Level For TopOverlay=192|Gray Level For BottomOverlay=140|Gray Level For TopPaste=160|Gray Level For BottomPaste=160|Gray Level For TopSolder=0|Gray Level For BottomSolder=0|Gray Level For InternalPlane1=0|Gray Level For InternalPlane2=0|Gray Level For InternalPlane3=0|Gray Level For InternalPlane4=0|Gray Level For InternalPlane5=0|Gray Level For InternalPlane6=0|Gray Level For InternalPlane7=0|Gray Level For InternalPlane8=0|Gray Level For InternalPlane9=0|Gray Level For InternalPlane10=0|Gray Level For InternalPlane11=0|Gray Level For InternalPlane12=0|Gray Level For InternalPlane13=0|Gray Level For InternalPlane14=0|Gray Level For InternalPlane15=0|Gray Level For InternalPlane16=0|Gray Level For DrillGuide=0|Gray Level For KeepOutLayer=120|Gray Level For Mechanical1=0|Gray Level For Mechanical2=90|Gray Level For Mechanical3=90|Gray Level For Mechanical4=90|Gray Level For Mechanical5=90|Gray Level For Mechanical6=90|Gray Level For Mechanical7=90|Gray Level For Mechanical8=90|Gray Level For Mechanical9=90|Gray Level For Mechanical10=90|Gray Level For Mechanical11=90|Gray Level For Mechanical12=90|Gray Level For Mechanical13=90|Gray Level For Mechanical14=90|Gray Level For Mechanical15=90|Gray Level For Mechanical16=90|Gray Level For DrillDrawing=0|Gray Level For MultiLayer=0|Gray Level For ConnectLayer=0|Gray Level For BackGroundLayer=255|Gray Level For DRCErrorLayer=0|Gray Level For HighlightLayer=0|Gray Level For GridColor1=0|Gray Level For GridColor10=0|Gray Level For PadHoleLayer=210|Gray Level For ViaHoleLayer=210|Color For TopLayer=255|Color For MidLayer1=32768|Color For MidLayer2=65280|Color For MidLayer3=8388608|Color For MidLayer4=16776960|Color For MidLayer5=8388736|Color For MidLayer6=16711935|Color For MidLayer7=32896|Color For MidLayer8=65535|Color For MidLayer9=8421504|Color For MidLayer10=32768|Color For MidLayer11=8388736|Color For MidLayer12=8421376|Color For MidLayer13=12632256|Color For MidLayer14=128|Color For MidLayer15=32768|Color For MidLayer16=65280|Color For MidLayer17=8388608|Color For MidLayer18=16776960|Color For MidLayer19=8388736|Color For MidLayer20=16711935|Color For MidLayer21=32896|Color For MidLayer22=65535|Color For MidLayer23=8421504|Color For MidLayer24=32768|Color For MidLayer25=8388736|Color For MidLayer26=8421376|Color For MidLayer27=12632256|Color For MidLayer28=8421376|Color For MidLayer29=12632256|Color For MidLayer30=128|Color For BottomLayer=16711680|Color For TopOverlay=32768|Color For BottomOverlay=7585984|Color For TopPaste=8388736|Color For BottomPaste=128|Color For TopSolder=3162822|Color For BottomSolder=7307173|Color For InternalPlane1=32768|Color For InternalPlane2=128|Color For InternalPlane3=8388736|Color For InternalPlane4=8421376|Color For InternalPlane5=32768|Color For InternalPlane6=128|Color For InternalPlane7=8388736|Color For InternalPlane8=8421376|Color For InternalPlane9=32768|Color For InternalPlane10=128|Color For InternalPlane11=8388736|Color For InternalPlane12=8421376|Color For InternalPlane13=32768|Color For InternalPlane14=128|Color For InternalPlane15=8388736|Color For InternalPlane16=8421376|Color For DrillGuide=128|Color For KeepOutLayer=8388736|Color For Mechanical1=8388736|Color For Mechanical2=8421376|Color For Mechanical3=32768|Color For Mechanical4=0|Color For Mechanical5=8388736|Color For Mechanical6=8421376|Color For Mechanical7=32768|Color For Mechanical8=0|Color For Mechanical9=8388736|Color For Mechanical10=8421376|Color For Mechanical11=32768|Color For Mechanical12=0|Color For Mechanical13=8388736|Color For Mechanical14=8421376|Color For Mechanical15=32768|Color For Mechanical16=0|Color For DrillDrawing=3408013|Color For MultiLayer=8421504|Color For ConnectLayer=8421376|Color For BackGroundLayer=15269887|Color For DRCErrorLayer=65280|Color For HighlightLayer=65535|Color For GridColor1=12632256|Color For GridColor10=11913679|Color For PadHoleLayer=6899487|Color For ViaHoleLayer=9279142
+
+[PublishSettings]
+OutputFilePath2=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_Schematic_[VariantName]_2019-10-23.pdf
+ReleaseManaged2=0
+OutputBasePath2=..\out\Schematic\
+OutputPathMedia2==CurrentDate
+OutputPathMediaValue2==CurrentDate
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=ac_rc_unit_VER1.pdf
+OutputFileNameMulti2=
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2==OutputFileNamePrefix+'_Schematic_['+VariantName+']_'+CurrentDate+'.pdf'
+OpenOutput2=0
+PromptOverwrite2=0
+PublishMethod2=0
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=0
+ShowComponentParameters2=0
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\CAM Files\
+ReleaseManaged3=0
+OutputBasePath3=..\out\
+OutputPathMedia3=CAM Files
+OutputPathMediaValue3=CAM Files
+OutputPathOutputer3=[Output Custom]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3==OutputFileNamePrefix+'_CAM_Files_'+CurrentDate
+OutputFileName3=
+OutputFileNameMulti3==OutputFileNamePrefix
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=0
+OutputFilePath4=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\3D View\2019-11-15\ac_rc_unit_VER1_3D_View_2019-11-15.pdf
+ReleaseManaged4=0
+OutputBasePath4=..\out\3D View\
+OutputPathMedia4==CurrentDate
+OutputPathMediaValue4==CurrentDate
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=ac_rc_unit_VER1.pdf
+OutputFileNameMulti4=
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4==OutputFileNamePrefix+'_3D_View_['+VariantName+']_'+CurrentDate+'.pdf'
+OpenOutput4=0
+PromptOverwrite4=0
+PublishMethod4=0
+ZoomLevel4=50
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
+GenerateNetsInfo4=1
+MarkPins4=1
+MarkNetLabels4=1
+MarkPortsId4=1
+GenerateTOC4=1
+ShowComponentParameters4=1
+GlobalBookmarks4=0
+PDFACompliance4=Disabled
+PDFVersion4=Default
+OutputFilePath5=C:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\BOM\
+ReleaseManaged5=0
+OutputBasePath5=..\out\
+OutputPathMedia5=BOM
+OutputPathMediaValue5=BOM
+OutputPathOutputer5=[Output Custom]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5==CurrentDate
+OutputFileName5=
+OutputFileNameMulti5==OutputFileNamePrefix+'_BOM_['+VariantName+']_'+CurrentDate
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=0
+OutputFilePath6=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\BOM\
+ReleaseManaged6=0
+OutputBasePath6=..\out\
+OutputPathMedia6=BOM
+OutputPathMediaValue6=BOM
+OutputPathOutputer6=[Output Custom]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6==CurrentDate
+OutputFileName6=
+OutputFileNameMulti6==OutputFileNamePrefix+'_BOM_record_['+VariantName+']_'+CurrentDate
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=0
+OutputFilePath7=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_Assembly_2019-10-23.pdf
+ReleaseManaged7=0
+OutputBasePath7=..\out\Assembly\
+OutputPathMedia7==CurrentDate
+OutputPathMediaValue7==CurrentDate
+OutputPathOutputer7=[Output Type]
+OutputPathOutputerPrefix7=
+OutputPathOutputerValue7=
+OutputFileName7=ac_rc_unit_VER1.PDF
+OutputFileNameMulti7=
+UseOutputNameForMulti7=0
+OutputFileNameSpecial7==OutputFileNamePrefix+'_Assembly_'+CurrentDate+'.pdf'
+OpenOutput7=0
+PromptOverwrite7=0
+PublishMethod7=0
+ZoomLevel7=50
+FitSCHPrintSizeToDoc7=0
+FitPCBPrintSizeToDoc7=0
+GenerateNetsInfo7=1
+MarkPins7=1
+MarkNetLabels7=1
+MarkPortsId7=1
+GenerateTOC7=0
+ShowComponentParameters7=0
+GlobalBookmarks7=0
+PDFACompliance7=Disabled
+PDFVersion7=Default
+OutputFilePath8=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_Assembly_[VariantName]_2019-10-23.pdf
+ReleaseManaged8=0
+OutputBasePath8=..\out\Assembly\
+OutputPathMedia8==CurrentDate
+OutputPathMediaValue8==CurrentDate
+OutputPathOutputer8=[Output Type]
+OutputPathOutputerPrefix8=
+OutputPathOutputerValue8=
+OutputFileName8=ac_rc_unit_VER1.pdf
+OutputFileNameMulti8=
+UseOutputNameForMulti8=0
+OutputFileNameSpecial8==OutputFileNamePrefix+'_Assembly_['+VariantName+']_'+CurrentDate+'.pdf'
+OpenOutput8=0
+PromptOverwrite8=0
+PublishMethod8=0
+ZoomLevel8=50
+FitSCHPrintSizeToDoc8=0
+FitPCBPrintSizeToDoc8=0
+GenerateNetsInfo8=1
+MarkPins8=1
+MarkNetLabels8=1
+MarkPortsId8=1
+GenerateTOC8=0
+ShowComponentParameters8=0
+GlobalBookmarks8=0
+PDFACompliance8=Disabled
+PDFVersion8=Default
+OutputFilePath9=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_PCB_Drawings_2019-10-23.pdf
+ReleaseManaged9=0
+OutputBasePath9=..\out\PCB Drawings\
+OutputPathMedia9==CurrentDate
+OutputPathMediaValue9==CurrentDate
+OutputPathOutputer9=[Output Type]
+OutputPathOutputerPrefix9=
+OutputPathOutputerValue9=
+OutputFileName9=ac_rc_unit_VER1.pdf
+OutputFileNameMulti9=
+UseOutputNameForMulti9=0
+OutputFileNameSpecial9==OutputFileNamePrefix+'_PCB_Drawings_'+CurrentDate+'.pdf'
+OpenOutput9=0
+PromptOverwrite9=0
+PublishMethod9=0
+ZoomLevel9=50
+FitSCHPrintSizeToDoc9=0
+FitPCBPrintSizeToDoc9=0
+GenerateNetsInfo9=1
+MarkPins9=1
+MarkNetLabels9=1
+MarkPortsId9=1
+GenerateTOC9=0
+ShowComponentParameters9=0
+GlobalBookmarks9=0
+PDFACompliance9=Disabled
+PDFVersion9=Default
+OutputFilePath10=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\Pick&Place\
+ReleaseManaged10=0
+OutputBasePath10=..\out\
+OutputPathMedia10=Pick&Place
+OutputPathMediaValue10=Pick&Place
+OutputPathOutputer10=[Output Custom]
+OutputPathOutputerPrefix10=
+OutputPathOutputerValue10==CurrentDate
+OutputFileName10=
+OutputFileNameMulti10==OutputFileNamePrefix+'_Pick&Place_'+'['+VariantName+']_'+CurrentDate
+UseOutputNameForMulti10=0
+OutputFileNameSpecial10=
+OpenOutput10=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_Schematic_[VariantName]_2019-10-23.pdf
+OpenOutputs2=0
+RelativeOutputPath3=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\CAM Files\
+OpenOutputs3=0
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\3D View\2019-11-15\ac_rc_unit_VER1_3D_View_2019-11-15.pdf
+OpenOutputs4=0
+RelativeOutputPath5=C:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\BOM\
+OpenOutputs5=0
+AddToProject5=0
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
+RelativeOutputPath6=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\BOM\
+OpenOutputs6=0
+AddToProject6=0
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
+RelativeOutputPath7=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_Assembly_2019-10-23.pdf
+OpenOutputs7=0
+RelativeOutputPath8=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_Assembly_[VariantName]_2019-10-23.pdf
+OpenOutputs8=0
+RelativeOutputPath9=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\ac_rc_unit_VER1_PCB_Drawings_2019-10-23.pdf
+OpenOutputs9=0
+RelativeOutputPath10=c:\!!!MFO_UPWORK\Project #5 - BLE Dialog\Altium\AC_RC_UNIT_VER1_REV1\out\Pick&Place\
+OpenOutputs10=0
+AddToProject10=0
+TimestampFolder10=0
+UseOutputName10=0
+OpenODBOutput10=0
+OpenGerberOutput10=0
+OpenNCDrillOutput10=0
+OpenIPCOutput10=0
+EnableReload10=0
+

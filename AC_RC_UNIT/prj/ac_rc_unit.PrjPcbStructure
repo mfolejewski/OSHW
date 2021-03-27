@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=[01] Cover_page.SchDoc
+Record=SheetSymbol|SourceDocument=[01] Cover_page.SchDoc|Designator=D8|SchDesignator=D8|FileName=[02] Top.SchDoc|SymbolType=Normal|RawFileName=[02] Top.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=[02] Top.SchDoc|Designator=D7|SchDesignator=D7|FileName=[03] BLE_KEY_LED.SchDoc|SymbolType=Normal|RawFileName=[03] BLE_KEY_LED.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=[02] Top.SchDoc|Designator=D8|SchDesignator=D8|FileName=[04] LCD_PWR.SchDoc|SymbolType=Normal|RawFileName=[04] LCD_PWR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
